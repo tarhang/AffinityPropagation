@@ -34,6 +34,11 @@ public class AffinityPropagation
     private static int filenumber_matlab = 0;
 
 
+    /**
+     * Constructor of the AffinityPropagation class for the case when no 'slider' parameter
+     * is provided (slider=0.5 assumed).
+     * @param filename file address to the data set
+     */
     public AffinityPropagation(String filename)
     {
         this.filename = filename;
@@ -46,6 +51,12 @@ public class AffinityPropagation
         setSimilarities();
     }
 
+    /**
+     * Constructor of the AffinityPropagation class for the case when a slider value
+     * is provided.
+     * @param filename file address to the data set
+     * @param slider double value between 0-1
+     */
     public AffinityPropagation(String filename, double slider)
     {
         this.filename = filename;
@@ -114,6 +125,7 @@ public class AffinityPropagation
 
         System.out.println("}");
     }
+
 
     /**
      * sorts an array of double in ascending order in place
