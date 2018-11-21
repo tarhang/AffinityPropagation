@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86275be0-8204-4389-98b7-d8830ce8eae4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AffinityPropagation/AffinityPropagation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AffinityPropagation/AffinityPropagation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AffinityPropagation/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AffinityPropagation/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AffinityPropagation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AffinityPropagation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,10 +19,12 @@
     <session id="-90342474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,12 +39,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="886" />
+          <entry key="java" value="909" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="886" />
+          <entry key="JAVA" value="909" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -55,20 +55,65 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AffinityPropagation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="59" column="61" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
+            <state relative-caret-position="-2473">
+              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1638#1639#0" expanded="true" />
-                <element signature="e#1672#1673#0" expanded="true" />
-                <element signature="e#1718#1719#0" expanded="true" />
-                <element signature="e#1759#1760#0" expanded="true" />
-                <element signature="e#1802#1803#0" expanded="true" />
-                <element signature="e#1840#1841#0" expanded="true" />
-                <element signature="e#14606#14633#0" expanded="true" />
-                <element signature="e#17912#17928#0" expanded="true" />
-                <element signature="e#19860#19887#0" expanded="true" />
-                <element signature="e#21341#21368#0" expanded="true" />
+                <element signature="e#925#1121#0" />
+                <element signature="e#925#1407#0" />
+                <element signature="e#1413#1627#0" />
+                <element signature="e#1413#1931#0" />
+                <element signature="e#2182#2421#0" />
+                <element signature="e#2182#2809#0" />
+                <element signature="e#2815#2946#0" />
+                <element signature="e#2815#3189#0" />
+                <element signature="e#3196#3309#0" />
+                <element signature="e#3196#3731#0" />
+                <element signature="e#3737#3872#0" />
+                <element signature="e#3737#4170#0" />
+                <element signature="e#4178#4271#0" />
+                <element signature="e#4178#8265#0" />
+                <element signature="e#8274#8351#0" />
+                <element signature="e#8274#8716#0" />
+                <element signature="e#8724#8957#0" />
+                <element signature="e#8724#9243#0" />
+                <element signature="e#9249#9562#0" />
+                <element signature="e#9249#10582#0" />
+                <element signature="e#10588#10666#0" />
+                <element signature="e#10588#11418#0" />
+                <element signature="e#11426#11673#0" />
+                <element signature="e#11426#12389#0" />
+                <element signature="e#12395#12614#0" />
+                <element signature="e#12395#13709#0" />
+                <element signature="e#13715#13807#0" />
+                <element signature="e#13715#14053#0" />
+                <element signature="e#14059#14149#0" />
+                <element signature="e#14059#14391#0" />
+                <element signature="e#14397#14489#0" />
+                <element signature="e#14397#14820#0" />
+                <element signature="e#14828#14912#0" />
+                <element signature="e#14828#15461#0" />
+                <element signature="e#15467#15687#0" />
+                <element signature="e#15467#16642#0" />
+                <element signature="e#16648#16735#0" />
+                <element signature="e#16648#16884#0" />
+                <element signature="e#16890#17163#0" />
+                <element signature="e#16890#17475#0" />
+                <element signature="e#17483#17528#0" />
+                <element signature="e#17483#17953#0" />
+                <element signature="e#17959#18199#0" />
+                <element signature="e#17959#18676#0" />
+                <element signature="e#18684#18780#0" />
+                <element signature="e#18684#18937#0" />
+                <element signature="e#18943#19096#0" />
+                <element signature="e#18943#19393#0" />
+                <element signature="e#19399#19569#0" />
+                <element signature="e#19399#20085#0" />
+                <element signature="e#20091#20171#0" />
+                <element signature="e#20091#21236#0" />
+                <element signature="e#21245#21425#0" />
+                <element signature="e#21431#21644#0" />
+                <element signature="e#21650#22454#0" />
               </folding>
             </state>
           </provider>
@@ -128,6 +173,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,10 +190,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -193,11 +239,10 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4037037" />
@@ -208,6 +253,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -223,10 +269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -237,20 +279,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_Affinity Propagation.zip/Orientation/AffinityPropagation.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_Affinity Propagation.zip/Orientation/AffinityPropagation.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_Affinity Propagation.zip/Orienttionless_slider/AffinityPropagation.java" />
+    <entry file="file://$PROJECT_DIR$/src/AffinityPropagation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-924">
+        <state relative-caret-position="-2473">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_Affinity Propagation.zip/Orienttionless_slider/AffinityPropagation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#925#1121#0" />
+            <element signature="e#925#1407#0" />
+            <element signature="e#1413#1627#0" />
+            <element signature="e#1413#1931#0" />
+            <element signature="e#2182#2421#0" />
+            <element signature="e#2182#2809#0" />
+            <element signature="e#2815#2946#0" />
+            <element signature="e#2815#3189#0" />
+            <element signature="e#3196#3309#0" />
+            <element signature="e#3196#3731#0" />
+            <element signature="e#3737#3872#0" />
+            <element signature="e#3737#4170#0" />
+            <element signature="e#4178#4271#0" />
+            <element signature="e#4178#8265#0" />
+            <element signature="e#8274#8351#0" />
+            <element signature="e#8274#8716#0" />
+            <element signature="e#8724#8957#0" />
+            <element signature="e#8724#9243#0" />
+            <element signature="e#9249#9562#0" />
+            <element signature="e#9249#10582#0" />
+            <element signature="e#10588#10666#0" />
+            <element signature="e#10588#11418#0" />
+            <element signature="e#11426#11673#0" />
+            <element signature="e#11426#12389#0" />
+            <element signature="e#12395#12614#0" />
+            <element signature="e#12395#13709#0" />
+            <element signature="e#13715#13807#0" />
+            <element signature="e#13715#14053#0" />
+            <element signature="e#14059#14149#0" />
+            <element signature="e#14059#14391#0" />
+            <element signature="e#14397#14489#0" />
+            <element signature="e#14397#14820#0" />
+            <element signature="e#14828#14912#0" />
+            <element signature="e#14828#15461#0" />
+            <element signature="e#15467#15687#0" />
+            <element signature="e#15467#16642#0" />
+            <element signature="e#16648#16735#0" />
+            <element signature="e#16648#16884#0" />
+            <element signature="e#16890#17163#0" />
+            <element signature="e#16890#17475#0" />
+            <element signature="e#17483#17528#0" />
+            <element signature="e#17483#17953#0" />
+            <element signature="e#17959#18199#0" />
+            <element signature="e#17959#18676#0" />
+            <element signature="e#18684#18780#0" />
+            <element signature="e#18684#18937#0" />
+            <element signature="e#18943#19096#0" />
+            <element signature="e#18943#19393#0" />
+            <element signature="e#19399#19569#0" />
+            <element signature="e#19399#20085#0" />
+            <element signature="e#20091#20171#0" />
+            <element signature="e#20091#21236#0" />
+            <element signature="e#21245#21425#0" />
+            <element signature="e#21431#21644#0" />
+            <element signature="e#21650#22454#0" />
           </folding>
         </state>
       </provider>
@@ -266,26 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AffinityPropagation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="59" column="61" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1759#1760#0" expanded="true" />
-            <element signature="e#1802#1803#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#14606#14633#0" expanded="true" />
-            <element signature="e#17912#17928#0" expanded="true" />
-            <element signature="e#19860#19887#0" expanded="true" />
-            <element signature="e#21341#21368#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

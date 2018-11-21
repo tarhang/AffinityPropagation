@@ -51,6 +51,7 @@ public class AffinityPropagation
         setSimilarities();
     }
 
+    
     /**
      * Constructor of the AffinityPropagation class for the case when a slider value
      * is provided.
@@ -70,22 +71,22 @@ public class AffinityPropagation
     }
 
 
-
     public int getNumClusters()
     {
         return numClusters;
     }
+
 
     public int getNumReferencePoints()
     {
         return numReferencePoints;
     }
 
+
     public int getNumAccessPoints()
     {
         return numAccessPoints;
     }
-
 
 
     /**
@@ -109,6 +110,7 @@ public class AffinityPropagation
 
         System.out.println();
     }
+
 
     /**
      * prints the cluster passed to the function
@@ -149,6 +151,7 @@ public class AffinityPropagation
         }
     }
 
+
     /**
      * opens the .csv file associated with this object
      * @return returns a BufferedReader pointer pointing to the file
@@ -167,7 +170,6 @@ public class AffinityPropagation
             return null;
         }
     }
-
 
 
     /**
@@ -291,8 +293,6 @@ public class AffinityPropagation
     }
 
 
-
-
     /**
      * just a couple of instantiations to do affinity propagation
      */
@@ -303,7 +303,6 @@ public class AffinityPropagation
         combined = new double[numReferencePoints][numReferencePoints];
         similarities = new double[numReferencePoints][numReferencePoints];
     }
-
 
 
     /**
@@ -323,6 +322,7 @@ public class AffinityPropagation
 
         return similarity;
     }
+
 
     /**
      * calculates the common self similarity, or preference, given a similarity matrix as the median of other similarities
@@ -361,6 +361,7 @@ public class AffinityPropagation
         return preference;
     }
 
+
     /**
      * sets the similarities matrix based on pairwise similarities
      */
@@ -393,7 +394,6 @@ public class AffinityPropagation
     }
 
 
-
     /**
      * calculates and sets the responsibility message sent from reference point with indexA to reference point with indexB
      * @param indexA index of the first reference point
@@ -422,6 +422,7 @@ public class AffinityPropagation
         responsibility = dampingFactor * prev + (1 - dampingFactor) * responsibility;
         responsibilities[indexA][indexB] = responsibility;
     }
+
 
     /**
      * calculates the sets the availability message sent from reference point with indexB to reference point with indexA
@@ -467,6 +468,7 @@ public class AffinityPropagation
         availablities[indexA][indexB] = availability;
     }
 
+
     /**
      * updates all pairwise responsibility messages between all reference points
      */
@@ -481,6 +483,7 @@ public class AffinityPropagation
         }
     }
 
+
     /**
      * updates all pairwise availability messages between all reference points
      */
@@ -494,6 +497,7 @@ public class AffinityPropagation
             }
         }
     }
+
 
     /**
      * updates the combined matrix as the sum of availability and responsibility
@@ -511,7 +515,6 @@ public class AffinityPropagation
             }
         }
     }
-
 
 
     /**
@@ -535,6 +538,7 @@ public class AffinityPropagation
 
         numClusters = clusters.size();
     }
+
 
     /**
      * finds the reference point that best represents the current reference point
@@ -574,6 +578,7 @@ public class AffinityPropagation
         }
     }
 
+
     /**
      * finds the examplars of all reference points in the given orientation
      */
@@ -585,9 +590,9 @@ public class AffinityPropagation
         }
     }
 
+
     /**
      * determines whether or not the clustering process should be terminated
-     * @param orientation index of the desired orientation
      * @return returns true if local examplars have not changed from the previous iteration of the algorithm; false otherwise
      */
     public boolean terminate()
@@ -605,7 +610,6 @@ public class AffinityPropagation
 
         return terminate;
     }
-
 
 
     /**
@@ -634,6 +638,7 @@ public class AffinityPropagation
         }
     }
 
+
     /**
      * finds the cluster to which the passed reference point belongs to
      * @param point a reference point
@@ -658,7 +663,6 @@ public class AffinityPropagation
     }
 
 
-
     /**
      * creates a .csv file filename
      * @return returns a string as the file name
@@ -670,6 +674,7 @@ public class AffinityPropagation
 
         return toReturn;
     }
+
 
     /**
      * creates a new .csv file
@@ -690,6 +695,7 @@ public class AffinityPropagation
             return null;
         }
     }
+
 
     /**
      * writes one cluster to the given file
@@ -712,6 +718,7 @@ public class AffinityPropagation
             pw.append("end_of_point" + "\n");
         }
     }
+
 
     /**
      * creates and writes as many as needed files in one orientation
@@ -749,8 +756,6 @@ public class AffinityPropagation
     }
 
 
-
-
     public String createFilename_matlab()
     {
         String toReturn = "cluster_matlab" + filenumber_matlab + ".txt";
@@ -759,6 +764,7 @@ public class AffinityPropagation
         return toReturn;
     }
 
+
     public void writeCluster_matlab(PrintWriter pw, ArrayList<ReferencePoint> cluster)
     {
         for(ReferencePoint point : cluster)
@@ -766,6 +772,7 @@ public class AffinityPropagation
             pw.append(point.x + " " + point.y + "\n");
         }
     }
+
 
     public void writeFile_matlab()
     {
