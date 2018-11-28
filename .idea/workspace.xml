@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86275be0-8204-4389-98b7-d8830ce8eae4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AffinityPropagation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AffinityPropagation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +18,7 @@
     <session id="-90342474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -56,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/src/AffinityPropagation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2473">
-              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#925#1121#0" />
@@ -284,7 +283,7 @@
     <entry file="file://$PROJECT_DIR$/src/AffinityPropagation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2473">
-          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#925#1121#0" />

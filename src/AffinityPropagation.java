@@ -51,7 +51,7 @@ public class AffinityPropagation
         setSimilarities();
     }
 
-    
+
     /**
      * Constructor of the AffinityPropagation class for the case when a slider value
      * is provided.
